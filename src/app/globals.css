@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* src/styles/globals.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* 1) Tailwind core directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 2) Custom utility classes */
+.input {
+  @apply border p-2 rounded w-full;
+}
+
+.btn {
+  @apply py-2 px-4 rounded font-semibold;
+}
+/* src/styles/globals.css */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
